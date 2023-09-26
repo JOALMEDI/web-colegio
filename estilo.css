@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../Pagina-prueba/fuentes/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Ligh";
+    src: url("../Pagina-prueba/fuentes/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Pagina-prueba/fuentes/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins med";
+    src: url("../Pagina-prueba/fuentes/Poppins-Medium.ttf");
+}
+
+:root {
+    --morado: #5c5adb;
+    --morado-fuerte: #3d3c92;
+    --lila: #a4a3e7;
+    --azul-fuerte: #1d1d36;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --ligh: "Poppins Ligh";
+    --bold: "Poppins Bold";
+    --reg: "Poppins";
+    --med: "Poppins med";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: var(--reg);
+    list-style: none;
+}
+
+.encabezado {
+    display: flex;
+    width: 100vw;
+    height: 115px;
+}
+
+.encabezado .encabezado-input {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding: 50px 0 0 50px;
+}
+
+.encabezado .encabezado-input div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid var(--negro);
+}
+
+.encabezado .encabezado-input .encabezado-span {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+}
+
+.encabezado .encabezado-input input {
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-family: var(--ligh);
+}
+
+.encabezado .encabezado-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.encabezado .encabezado-logo span {
+    display: inline-block;
+    width: 60px;
+    height: 70px;
+}
+
+.encabezado .encabezado-logo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.encabezado .encabezado-logo div h2{
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: var(--bold);
+}
+.encabezado .encabezado-logo div h3{
+    width: 100%;
+    font-size: 19px;
+    font-family: var(--ligh);
+}
+
+.encabezado .encabezado-iconos {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 25px;
+}
+.encabezado .encabezado-iconos a{
+    display: inline-block;
+}
+.encabezado .encabezado-iconos .iconos{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.encabezado .encabezado-iconos a svg {
+    width: 25px;
+    color: var(--azul-fuerte);
+}
+.encabezado .encabezado-iconos .iconos-boton{
+    color: #000000;
+    text-decoration: none;
+    font-family: var(--ligh);
+    font-size: 16px;
+}
+section nav ul{
+    display: flex;
+    flex-direction: row;
+}
