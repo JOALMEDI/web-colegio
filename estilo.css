@@ -136,7 +136,29 @@
     font-family: var(--ligh);
     font-size: 16px;
 }
-section nav ul{
+
+header .encabezado-nav{
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    background: var(--azul-fuerte);
+}
+header .encabezado-nav ul{
     display: flex;
     flex-direction: row;
+    height: 100%;
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header .encabezado-nav ul li{
+    color: var(--blanco);
+    font-size: 16px;
+    font-family: var(--ligh);
+    cursor: pointer;
+}
+header .encabezado-nav ul li:hover{
+    color: var(--lila);
+    transition: 0.5s all;
 }
